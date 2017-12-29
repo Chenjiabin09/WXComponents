@@ -1,0 +1,3 @@
+<view class="tips-message-box" wx:if="{{isShow}}">
+  <text class="bd">{{content}}</text>
+</view>

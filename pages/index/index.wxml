@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <dialog id='dialog' title='标题' content='内容：是否要学习自定义组件？' cancelText="取消" confirm='确定' bind:cancelEvent="_cancelEvent" bind:confirmEvent="_confirmEvent">
+  </dialog>
+  <toast id="toast"></toast>
+  <button type="primary" bindtap="showDialog"> 点击对话框 </button>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "dialog": "/components/dialog/dialog",
+    "toast":"/components/toast/toast"
+  }
+}

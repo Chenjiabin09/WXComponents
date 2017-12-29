@@ -1,0 +1,13 @@
+<view class="contain" hidden="{{!isShow}}">
+    <view class="hd-dialog">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__hd"><view class="weui-dialog__title">{{title}}</view></view>
+            <view class="weui-dialog__bd">{{ content }}</view>
+            <view class="weui-dialog__ft">
+                <view class="weui-dialog__btn weui-dialog__btn_default" catchtap='_cancelEvent'>{{ cancelText }}</view>
+                <view class="weui-dialog__btn weui-dialog__btn_primary" catchtap='_confirmEvent'>{{ confirmText }}</view>
+            </view>
+        </view>
+    </view>
+</view>

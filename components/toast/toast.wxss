@@ -1,0 +1,20 @@
+.tips-message-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tips-message-box .bd {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10rpx 20rpx;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  max-width: 50%;
+  line-height: 1.8;
+  word-wrap : break-word;
+}
